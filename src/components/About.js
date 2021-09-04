@@ -6,7 +6,7 @@ import {Container, Row, Col} from "reactstrap";
 
 function About(props) {
     return (
-        <Container className="pt-5 pb-5">
+        <Container className="pt-5 pb-5 bgAbout">
             <Row>
                 <Col sm="6">
                     <div className="headshot"></div>
