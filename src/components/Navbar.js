@@ -1,7 +1,8 @@
 import React from 'react';
-import {Navbar, Nav, NavItem, NavLink, Jumbotron} from 'reactstrap';
+import {Navbar, Nav, NavItem, Jumbotron} from 'reactstrap';
 import 'font-awesome/css/font-awesome.css';
 import 'bootstrap-social/bootstrap-social.css';
+import { Link } from 'react-router-dom';
 
 
 
@@ -10,26 +11,21 @@ function SiteNav(props) {
         <div>
             <Jumbotron fluid sticky="top">
                 <br />
-                <h1 className="display-1 text-left">Cory Larro</h1>
-                <br />
+                <h1 className="display-1 text-left font-link">Cory Larro</h1>
             <Navbar sticky="top">
                 <Nav>
                     <NavItem>
-                        <NavLink className="text-dark" to="/about">About</NavLink>
+                        <Link className="text-dark navBarLink font-link" to="/about">About</Link>
                     </NavItem>
                     <NavItem>
-                        <NavLink className="text-dark" to="/skills">Tech Stack</NavLink>
+                        <Link className="text-dark navBarLink font-link" to="/skills">Tech Stack</Link>
                     </NavItem>
                     <NavItem>
-                        <NavLink className="text-dark" to="/projects">Projects</NavLink>
+                        <Link className="text-dark navBarLink font-link" to="/projects">Projects</Link>
                     </NavItem>
                     <NavItem>
-                        <NavLink className="text-dark" to="/contact">Contact</NavLink>
+                        <Link className="text-dark navBarLink font-link" to="/contact">Contact</Link>
                     </NavItem>
-                        <a className="btn btn-social-icon btn-github" href="https://github.com/corylarro"><i className="fa fa-github" /></a>{' '}
-                        <a className="btn btn-social-icon btn-linkedin" href="https://twitter.com/CoryLarro"><i className="fa fa-linkedin" /></a>{' '}
-                        <a className="btn btn-social-icon btn-twitter" href="https://twitter.com/CoryLarro"><i className="fa fa-twitter" /></a>{' '}
-                    
                 </Nav>
             </Navbar>
             </Jumbotron>

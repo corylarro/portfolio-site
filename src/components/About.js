@@ -22,7 +22,7 @@ function About(props) {
             </Row>
             <br />
             <Row>
-                <Col sm="6" className="mx-auto">
+                <Col md="6" className="mx-auto">
                     <h4 className="text-center"> Hi, I'm Cory! </h4>
                     <p className="text-center">I'm a former golf pro turned web developer. I create intuitive, responsive websites that help businesses level-up. I am detail oriented and have a passion for helping others grow and achieve new goals, both in and out of the workplace. </p>
                     <p className="text-center">When I am not working, I like to take advantage of the many benefits of living in the PNW. In the winter, you can find me chasing fresh powder up on Mt. Hood. In the summer, I like to spend my time out on the golf course, or camping with my partner and our dog, Zuri. </p>

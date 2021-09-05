@@ -6,14 +6,24 @@
     background-position: center;
     color: black;
 }
-x
+
+.jumbotron-heading{
+    font-weight:bolder;
+}
+
+.font-link {
+    font-family: 'Epilogue', sans-serif;
+}
+
+.navBarLink {
+    margin: 5px;
+}
+
 .headshot{
     border-radius: 50%;
 }
 
 .site-footer{
-    margin: 0;
-    padding: 15px;
     background-image: url(/src/img/grid-3230205_1920.jpg);
     background-size: cover;
     background-position: center;
