@@ -8,23 +8,23 @@ import 'bootstrap-social/bootstrap-social.css';
 function SiteNav(props) {
     return (
         <div>
-            <Jumbotron fluid>
+            <Jumbotron fluid sticky="top">
                 <br />
                 <h1 className="display-1 text-left">Cory Larro</h1>
                 <br />
             <Navbar sticky="top">
                 <Nav>
                     <NavItem>
-                        <NavLink className="text-dark" href="/">About</NavLink>
+                        <NavLink className="text-dark" to="/about">About</NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink className="text-dark" href="/">Skills</NavLink>
+                        <NavLink className="text-dark" to="/skills">Tech Stack</NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink className="text-dark" href="/">Projects</NavLink>
+                        <NavLink className="text-dark" to="/projects">Projects</NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink className="text-dark" href="/">Contact</NavLink>
+                        <NavLink className="text-dark" to="/contact">Contact</NavLink>
                     </NavItem>
                         <a className="btn btn-social-icon btn-github" href="https://github.com/corylarro"><i className="fa fa-github" /></a>{' '}
                         <a className="btn btn-social-icon btn-linkedin" href="https://twitter.com/CoryLarro"><i className="fa fa-linkedin" /></a>{' '}

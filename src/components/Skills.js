@@ -22,12 +22,12 @@ function Skills(props) {
                             <CardTitle tag="h5" className="text-center">Front-End</CardTitle>
                             <CardText>
                                 <ListGroup flush>
-                                    <ListGroupItem>HTML <i class="fa fa-html5"></i></ListGroupItem>
-                                    <ListGroupItem>CSS/SCSS <i class="fab fa-css3-alt"></i> <i class="fa fa-sass"></i></ListGroupItem>
-                                    <ListGroupItem>JavaScript <i class="fa fa-js-square"></i></ListGroupItem>
-                                    <ListGroupItem>React <i class="fa fa-react"></i></ListGroupItem>
-                                    <ListGroupItem>React Native </ListGroupItem>
-                                    <ListGroupItem>Bootstrap <i class="fa fa-bootstrap"></i></ListGroupItem>
+                                    <ListGroupItem className="text-center">HTML <i class="fa fa-html5"></i></ListGroupItem>
+                                    <ListGroupItem className="text-center">CSS/SCSS <i class="fab fa-css3-alt"></i> <i class="fa fa-sass"></i></ListGroupItem>
+                                    <ListGroupItem className="text-center">JavaScript <i class="fa fa-js-square"></i></ListGroupItem>
+                                    <ListGroupItem className="text-center">React <i class="fa fa-react"></i></ListGroupItem>
+                                    <ListGroupItem className="text-center">React Native </ListGroupItem>
+                                    <ListGroupItem className="text-center">Bootstrap <i class="fa fa-bootstrap"></i></ListGroupItem>
                                 </ListGroup>
                             </CardText>
                         </CardBody>
@@ -39,8 +39,8 @@ function Skills(props) {
                             <CardTitle tag="h5" className="text-center">Back-End</CardTitle>
                             <CardText>
                                 <ListGroup flush>
-                                    <ListGroupItem>Node.JS<i class="fa fa-node"></i></ListGroupItem>
-                                    <ListGroupItem>Mongo DB <i class="fab fa-css3-alt"></i> <i class="fa fa-sass"></i></ListGroupItem>
+                                    <ListGroupItem className="text-center">Node.JS<i class="fa fa-node"></i></ListGroupItem>
+                                    <ListGroupItem className="text-center">Mongo DB <i class="fab fa-css3-alt"></i> <i class="fa fa-sass"></i></ListGroupItem>
                                 </ListGroup>
                             </CardText>
                         </CardBody>
@@ -60,6 +60,7 @@ function Skills(props) {
                     </Card>
                 </Col>
             </Row>
+            <br />
         </Container>
     )
 }
