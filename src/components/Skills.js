@@ -6,11 +6,11 @@ import 'font-awesome/css/font-awesome.css';
 
 function Skills(props) {
     return (
-        <Container>
+        <Container className="pt-5 pb-5">
             <Row>
                 <Col>
                     <div className="d-flex justify-content-center">
-                        <h2>What I work with... </h2>
+                        <h2>What I work with...</h2>
                     </div>
                 </Col>
             </Row>
@@ -19,7 +19,7 @@ function Skills(props) {
                 <Col sm="4" className="justify-content-between mx-auto">
                     <Card>
                         <CardBody>
-                            <CardTitle tag="h5" className="text-center">Front-End</CardTitle>
+                            <CardTitle tag="h5" className="text-center"><u>Front-End</u></CardTitle>
                             <CardText>
                                 <ListGroup flush>
                                     <ListGroupItem className="text-center">HTML <i class="fa fa-html5"></i></ListGroupItem>
@@ -33,10 +33,10 @@ function Skills(props) {
                         </CardBody>
                     </Card>
                 </Col>
-                <Col sm="4" className="justify-content-between mx-auto">
-                    <Card>
+                <Col sm="4" className="justify-content-between mx-auto pt-5">
+                    <Card className="">
                         <CardBody>
-                            <CardTitle tag="h5" className="text-center">Back-End</CardTitle>
+                            <CardTitle tag="h5" className="text-center"><u>Back-End</u></CardTitle>
                             <CardText>
                                 <ListGroup flush>
                                     <ListGroupItem className="text-center">Node.JS<i class="fa fa-node"></i></ListGroupItem>
@@ -52,7 +52,7 @@ function Skills(props) {
                 <Col sm="4" className="mx-auto">
                 <Card>
                         <CardBody>
-                            <CardTitle tag="h5" className="text-center">Accolades</CardTitle>
+                            <CardTitle tag="h5" className="text-center"><u>Accolades</u></CardTitle>
                             <CardText>
                                 <h4>Nucamp Full Stack Web and Mobile Development Bootcamp</h4>
                             </CardText>
