@@ -16,9 +16,11 @@ function Footer(props) {
                     </div>
                     <div className="col-6 col-sm-3 text-center">
                         <h5 className="font-link pt-3">Let's Connect</h5>
-                        <a className="btn btn-social-icon btn-github" href="https://github.com/corylarro"><i className="fa fa-github text-white" /></a>{' '}
-                        <a className="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/cory-larro/"><i className="fa fa-linkedin text-white" /></a>{' '}
-                        <a className="btn btn-social-icon btn-twitter" href="https://twitter.com/CoryLarro"><i className="fa fa-twitter text-white" /></a>{' '}
+                        <a href="https://github.com/corylarro"><i className="fa fa-github text-white fa-lg fa-fw" /></a>{' '}
+                        <a href="https://www.linkedin.com/in/cory-larro/"><i className="fa fa-linkedin text-white fa-lg fa-fw" /></a>{' '}
+                        <a href="https://twitter.com/CoryLarro"><i className="fa fa-twitter text-white fa-lg fa-fw" /></a>{' '}
+                        <a className="text-white" href="https://angel.co/u/cory-larro"><i class="fab fa-angellist fa-lg fa-fw"></i></a>{' '}
+                                    <a className="text-white" href="https://codepen.io/corylarro"><i class="fab fa-codepen fa-lg fa-fw"></i></a>{' '}
                     </div>
                     <div className="col-sm-4 text-center">
                     <h5 className="font-link pt-3">Email</h5>

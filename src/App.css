@@ -97,6 +97,19 @@ h2, h3, h4, h5, p{
     text-shadow: #66fcf1 1px 0 20px;
 }
 
+.hover:hover{
+    transform: scale(2);
+}
+
+.fa-fw{
+    font-size: 30px;
+}
+
+.fa-fw:hover{
+    transform: scale(1.5);
+    text-shadow: #66fcf1 1px 0 20px;
+}
+
 .contact{
     background-color: #0b0c10;
 }

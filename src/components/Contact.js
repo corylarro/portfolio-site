@@ -62,9 +62,11 @@ function Contact(props) {
                         <Card className="location-back-item">
                             <CardBody>
                                 <CardText className="text-center">
-                                    <a className="btn btn-social-icon btn-github text-white" href="https://github.com/corylarro"><i className="fa fa-github" /></a>{' '}
-                                    <a className="btn btn-social-icon btn-linkedin text-white" href="https://www.linkedin.com/in/cory-larro/"><i className="fa fa-linkedin" /></a>{' '}
-                                    <a className="btn btn-social-icon btn-twitter text-white" href="https://twitter.com/CoryLarro"><i className="fa fa-twitter" /></a>{' '}
+                                    <a className="text-white" href="https://github.com/corylarro"><i className="fa fa-github fa-lg fa-fw" /></a>{' '}
+                                    <a className="text-white" href="https://www.linkedin.com/in/cory-larro/"><i className="fa fa-linkedin fa-lg fa-fw" /></a>{' '}
+                                    <a className="text-white" href="https://twitter.com/CoryLarro"><i className="fa fa-twitter fa-lg fa-fw" /></a>{' '}
+                                    <a className="text-white" href="https://angel.co/u/cory-larro"><i class="fab fa-angellist fa-lg fa-fw"></i></a>
+                                    <a className="text-white" href="https://codepen.io/corylarro"><i class="fab fa-codepen fa-lg fa-fw"></i></a>
                                 </CardText>
                                 <div className="text-center">
                                     <Button className="back-flip-button" onClick={handleClick}>Take Me Back</Button>

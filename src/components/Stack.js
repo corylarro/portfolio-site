@@ -15,24 +15,24 @@ function Stack(props) {
             </Row>
             <br />
             <Row>
-                <Col sm="3" className="justify-content-between mx-auto">
+                <Col md="4" className="justify-content-between mx-auto">
                     <Card className="stack-card">
                         <CardBody>
                             <CardText className="text-center">
                                 <Row>
                                     <Col className="stack-shadow">
-                                        <i class="fa fa-html5 fa-lg"></i>
+                                        <i class="fa fa-html5 fa-lg hover"></i>
                                             <p>HTML</p>
                                         <br />
-                                        <i class="fab fa-css3-alt fa-lg"></i>
+                                        <i class="fab fa-css3-alt fa-lg hover"></i>
                                         <p>CSS</p>
                                     </Col>
                                         <br />
                                     <Col className="stack-shadow">
-                                        <i class="fab fa-sass fa-lg"></i>
+                                        <i class="fab fa-sass fa-lg hover"></i>
                                         <p>Scss</p>
                                         <br />
-                                        <i class="fab fa-js-square fa-lg"></i>
+                                        <i class="fab fa-js-square fa-lg hover"></i>
                                         <p>JavaScript</p>
                                     </Col>
                                 </Row>
@@ -40,24 +40,24 @@ function Stack(props) {
                         </CardBody>
                     </Card>
                 </Col>
-                <Col sm="3" className="justify-content-between mx-auto">
+                <Col md="4" className="justify-content-between mx-auto">
                     <Card className="stack-card">
                         <CardBody>
                             <CardText className="text-center">
                                 <Row>
                                     <Col className="stack-shadow">
-                                        <i class="fab fa-react fa-lg"></i>
+                                        <i class="fab fa-react fa-lg hover"></i>
                                         <p>React</p>
                                         <br />
-                                        <i class="fab fa-react fa-lg"></i>
+                                        <i class="fab fa-react fa-lg hover"></i>
                                         <p>React Native</p>
                                     </Col>
                                     <br />
                                     <Col className="stack-shadow">
-                                    <i class="fas fa-cogs fa-lg"></i>
+                                    <i class="fas fa-cogs fa-lg hover"></i>
                                         <p>Redux</p>
                                         <br />
-                                        <i class="fab fa-bootstrap fa-lg"></i>
+                                        <i class="fab fa-bootstrap fa-lg hover"></i>
                                         <p>Bootstrap</p>
                                     </Col>
                                 </Row>
@@ -68,24 +68,24 @@ function Stack(props) {
             </Row>
             <br />
             <Row>
-                <Col sm="3" className="justify-content-between mx-auto">
+                <Col md="4" className="justify-content-between mx-auto">
                     <Card className="stack-card">
                         <CardBody>
                             <CardText className="text-center">
                                 <Row>
                                     <Col className="stack-shadow">
-                                        <i class="fas fa-database fa-lg"></i>
+                                        <i class="fas fa-database fa-lg hover"></i>
                                         <p>Mongo DB</p>
                                         <br />
-                                        <i class="fab fa-node fa-lg"></i>
+                                        <i class="fab fa-node fa-lg hover"></i>
                                         <p>Node JS</p>
                                     </Col>
                                 <br />
                                     <Col className="stack-shadow">
-                                        <i class="fab fa-npm fa-lg"></i>
+                                        <i class="fab fa-npm fa-lg hover"></i>
                                         <p>npm</p>
                                         <br />
-                                        <i class="fab fa-github-square fa-lg"></i>
+                                        <i class="fab fa-github-square fa-lg hover"></i>
                                         <p>GitHub</p>
                                     </Col>
                                 </Row>
