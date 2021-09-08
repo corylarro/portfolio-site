@@ -11,45 +11,100 @@
     font-weight:bolder;
 }
 
+.site-nav{
+    background-color: #1f2833;
+}
+
 .font-link {
     font-family: 'Epilogue', sans-serif;
+    color: #66fcf1;
 }
 
 .navBarLink {
-    margin: 5px;
+    margin: 75px;
 }
 
 .headshot{
     border-radius: 50%;
 }
 
-.location-front-item{
+h2, h3, h4, h5, p{
+    font-family: 'Sora', sans-serif;
+}
+
+.sora{
+    font-family: 'Sora', sans-serif;
+}
+
+.tech-card{
     background-image: linear-gradient(#191919, #333333, #4d4d4d);
     color: white;
-    
+}
+
+.location-front-item{
+    background-color: #0b0c10;
+    color: white;
 }
 
 .front-flip-button{
-    background-color: white;
+    background-color: #66fcf1;
     justify-content: center;
-    color: black;
+    color: #0b0c10;
 }
 
 
 .location-back-item{
-    background-image: linear-gradient(#ffffff, #f6f6f6, #ececec);
-    color: black;
+    background-color: #0b0c10;
+    color: #0b0c10;
 }
 
 .back-flip-button{
-    background-image: linear-gradient(#191919, #333333, #4d4d4d);
-    color: white;
+    background-color: #66fcf1;
+    justify-content: center;
+    color: #0b0c10;
+}
+
+.bg-about{
+    background-color: #0b0c10;
+}
+
+.a-little{
+    color: #66fcf1;
+}
+
+.intro-card{
+    background-color: #0b0c10;
+}
+
+.cory{
+    color: #66fcf1;
+    font-weight: bold;
+    font-size: 35px;
 }
 
 
+.intro-p{
+    color: white;
+}
+
+.stack-card{
+    background-color: #0b0c10;
+    color: white;
+    font-size: 25px;
+}
+
+.stack-shadow{
+    text-shadow: #66fcf1 1px 0 20px;
+}
+
+.contact{
+    background-color: #0b0c10;
+}
+
 .site-footer{
-    background-image: url(/src/img/grid-3230205_1920.jpg);
+    background-color: #1f2833;
     background-size: cover;
     background-position: center;
-    color: black;
+    color: #66fcf1;
+    padding-top: 25px;
 }
