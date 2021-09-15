@@ -22,12 +22,12 @@ function Skills(props) {
                             <CardTitle tag="h5" className="text-center sora"><u>Front-End</u></CardTitle>
                             <CardText>
                                 <ListGroup flush>
-                                    <ListGroupItem className="text-center sora">HTML <i class="fa fa-html5"></i></ListGroupItem>
-                                    <ListGroupItem className="text-center sora">CSS/SCSS <i class="fab fa-css3-alt"></i> <i class="fa fa-sass"></i></ListGroupItem>
-                                    <ListGroupItem className="text-center sora">JavaScript <i class="fa fa-js-square"></i></ListGroupItem>
-                                    <ListGroupItem className="text-center sora">React <i class="fa fa-react"></i></ListGroupItem>
+                                    <ListGroupItem className="text-center sora">HTML <i className="fa fa-html5"></i></ListGroupItem>
+                                    <ListGroupItem className="text-center sora">CSS/SCSS <i className="fab fa-css3-alt"></i> <i className="fa fa-sass"></i></ListGroupItem>
+                                    <ListGroupItem className="text-center sora">JavaScript <i className="fa fa-js-square"></i></ListGroupItem>
+                                    <ListGroupItem className="text-center sora">React <i className="fa fa-react"></i></ListGroupItem>
                                     <ListGroupItem className="text-center sora">React Native </ListGroupItem>
-                                    <ListGroupItem className="text-center sora">Bootstrap <i class="fa fa-bootstrap"></i></ListGroupItem>
+                                    <ListGroupItem className="text-center sora">Bootstrap <i className="fa fa-bootstrap"></i></ListGroupItem>
                                 </ListGroup>
                             </CardText>
                         </CardBody>
@@ -39,8 +39,8 @@ function Skills(props) {
                             <CardTitle tag="h5" className="text-center sora"><u>Back-End</u></CardTitle>
                             <CardText>
                                 <ListGroup flush>
-                                    <ListGroupItem className="text-center sora">Node.JS<i class="fa fa-node"></i></ListGroupItem>
-                                    <ListGroupItem className="text-center sora">Mongo DB <i class="fab fa-css3-alt"></i> <i class="fa fa-sass"></i></ListGroupItem>
+                                    <ListGroupItem className="text-center sora">Node.JS<i className="fa fa-node"></i></ListGroupItem>
+                                    <ListGroupItem className="text-center sora">Mongo DB <i className="fab fa-css3-alt"></i> <i className="fa fa-sass"></i></ListGroupItem>
                                 </ListGroup>
                             </CardText>
                         </CardBody>

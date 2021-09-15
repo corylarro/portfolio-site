@@ -5,6 +5,7 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Stack from './components/Stack';
+import Projects from './components/Projects';
 
 
 
@@ -14,8 +15,8 @@ function App() {
         <SiteNav />
         <About />
         <Stack />
+        <Projects />
         <Contact />
-        {/* <Projects /> */}
         <Footer />
         </div>
     );

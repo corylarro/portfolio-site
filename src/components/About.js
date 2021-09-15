@@ -11,7 +11,7 @@ function About(props) {
             <Row>
             <Col>
                 <div className="d-flex justify-content-center">
-                    <img className="headshot" style={{borderRadius: '50%'}} src="images/IMG_0490.jpeg" height="200" width="200" alt="Cory headshot" />
+                    <img className="headshot" style={{borderRadius: '50%'}} src="/images/IMG_0490.jpeg" height="200" width="200" alt="Cory headshot" />
                 </div>
             </Col>
             </Row>
@@ -25,11 +25,11 @@ function About(props) {
             <Row>
                 <Col md="6" className="mx-auto">
                     <Card className="intro-card">
-                        <CardBody className="intro-card">
                             <h4 className="text-center intro-p"> Hi, I'm <span className="cory">Cory</span>! </h4>
-                            <p className="text-center intro-p">I'm a former golf pro turned web developer. I create intuitive, responsive websites, with a mobile-first mindset, that help businesses level-up. I am detail oriented and have a passion for helping others grow and achieve new goals, both in and out of the workplace. </p>
-                            <p className="text-center intro-p">When I am not working, I like to take advantage of the many benefits of living in the PNW. In the winter, you can find me chasing fresh powder up on Mt. Hood. In the summer, I like to spend my time out on the golf course, or camping with my partner and our dog, Zuri. </p>
-                        </CardBody>
+                            <div>
+                                <p className="text-center intro-p">I'm a former golf pro turned web developer. I create intuitive, responsive websites, with a mobile-first mindset, that help businesses level-up. I am detail oriented and have a passion for helping others grow and achieve new goals, both in and out of the workplace. </p>
+                                <p className="text-center intro-p">When I am not working, I like to take advantage of the many benefits of living in the PNW. In the winter, you can find me chasing fresh powder up on Mt. Hood. In the summer, I like to spend my time out on the golf course, or camping with my partner and our dog, Zuri. </p>
+                            </div>
                     </Card>
                 </Col>
                 <br />
