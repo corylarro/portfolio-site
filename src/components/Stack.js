@@ -19,7 +19,7 @@ function Stack(props) {
                     <Card className="stack-card">
                         <CardBody>
                                 <Row>
-                                    <Col className="stack-shadow">
+                                    <Col className="stack-shadow text-center">
                                         <i className="fa fa-html5 fa-lg hover"></i>
                                             <p>HTML</p>
                                         <br />
@@ -27,7 +27,7 @@ function Stack(props) {
                                         <p>CSS</p>
                                     </Col>
                                         <br />
-                                    <Col className="stack-shadow">
+                                    <Col className="stack-shadow text-center">
                                         <i className="fab fa-sass fa-lg hover"></i>
                                         <p>Scss</p>
                                         <br />
@@ -43,7 +43,7 @@ function Stack(props) {
                     <Card className="stack-card">
                         <CardBody>
                                 <Row>
-                                    <Col className="stack-shadow">
+                                    <Col className="stack-shadow text-center">
                                         <i className="fab fa-react fa-lg hover"></i>
                                         <p>React</p>
                                         <br />
@@ -51,7 +51,7 @@ function Stack(props) {
                                         <p>React Native</p>
                                     </Col>
                                     <br />
-                                    <Col className="stack-shadow">
+                                    <Col className="stack-shadow text-center">
                                     <i className="fas fa-cogs fa-lg hover"></i>
                                         <p>Redux</p>
                                         <br />
@@ -69,7 +69,7 @@ function Stack(props) {
                     <Card className="stack-card">
                         <CardBody>
                                 <Row>
-                                    <Col className="stack-shadow">
+                                    <Col className="stack-shadow text-center">
                                         <i className="fas fa-database fa-lg hover"></i>
                                         <p>Mongo DB</p>
                                         <br />
@@ -77,7 +77,7 @@ function Stack(props) {
                                         <p>Node JS</p>
                                     </Col>
                                 <br />
-                                    <Col className="stack-shadow">
+                                    <Col className="stack-shadow text-center">
                                         <i className="fab fa-npm fa-lg hover"></i>
                                         <p>npm</p>
                                         <br />
