@@ -18,6 +18,7 @@
 .font-link {
     font-family: 'Epilogue', sans-serif;
     color: #66fcf1;
+    text-transform: uppercase;
 }
 
 .navBarLink {
@@ -143,4 +144,11 @@ h2, h3, h4, h5, p{
     background-position: center;
     color: #66fcf1;
     padding-top: 25px;
+}
+
+.footer-link{
+    font-family: 'Sora', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 5px;
 }
