@@ -27,7 +27,7 @@ function About(props) {
                     <Card className="intro-card">
                             <h4 className="text-center intro-p"> Hi, I'm <span className="cory">Cory</span>! </h4>
                             <div>
-                                <p className="text-center intro-p">I'm a former golf pro turned web developer. I create intuitive, responsive websites, with a mobile-first mindset, that help businesses level-up. I am detail oriented and have a passion for helping others grow and achieve new goals, both in and out of the workplace. </p>
+                                <p className="text-center intro-p">I'm a former golf pro turned web developer. I create intuitive, responsive websites, with a mobile-first mindset that help businesses level-up. I am detail oriented and have a passion for helping others grow and achieve new goals, both in and out of the workplace. </p>
                                 <p className="text-center intro-p">When I am not working, I like to take advantage of the many benefits of living in the PNW. In the winter, you can find me chasing fresh powder up on Mt. Hood. In the summer, I like to spend my time out on the golf course, or camping with my partner and our dog, Zuri. </p>
                             </div>
                     </Card>
