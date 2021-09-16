@@ -3,7 +3,7 @@ import { Container, Row, Col, Card, CardBody, CardImg, CardTitle, CardText } fro
 
 function Projects(props) {
     return(
-        <div className="bg-projects" id="projects">
+        <div className="bg-projects pt-5 pb-5" id="projects">
         <Container>
             <Row>
                 <Col>
