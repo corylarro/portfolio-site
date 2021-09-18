@@ -107,6 +107,7 @@ h2, h3, h4, h5, p{
 
 .hover:hover{
     transform: scale(2);
+    transition: ease-in-out .25s;
 }
 
 .fa-fw{
@@ -116,6 +117,7 @@ h2, h3, h4, h5, p{
 .fa-fw:hover{
     transform: scale(1.5);
     text-shadow: #66fcf1 1px 0 20px;
+    transition: ease-in-out .25s;
 }
 
 .bg-projects{
