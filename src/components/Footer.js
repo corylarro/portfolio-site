@@ -13,6 +13,7 @@ function Footer(props) {
                             <li><a className="text-white footer-link" style={{ textDecoration: 'none' }} href="#stack">Tech Stack</a></li>
                             <li><a className="text-white footer-link" style={{ textDecoration: 'none' }} href="#projects">Projects</a></li>
                             <li><a className="text-white footer-link" style={{ textDecoration: 'none' }} href="#contact" >Contact</a></li>
+                            <li><a className="text-white footer-link" style={{ textDecoration: 'none' }} href="/CoryResume2.pdf" >Resume</a></li>
                         </ul>
                     </div>
                     <div className="col-6 col-sm-3 text-center">

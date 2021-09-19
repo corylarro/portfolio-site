@@ -21,6 +21,9 @@ function SiteNav(props) {
                 <NavItem>
                     <a className="navBarLink font-link" style={{ textDecoration: 'none' }} href="#contact">Contact</a>
                 </NavItem>
+                <NavItem>
+                    <a className="navBarLink font-link" style={{ textDecoration: 'none' }} href="/CoryResume2.pdf">Resume</a>
+                </NavItem>
             </Nav>
         </Navbar>
     );
