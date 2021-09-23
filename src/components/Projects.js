@@ -17,11 +17,9 @@ function Projects(props) {
                 <Col md={4}>
                     <Card className="card-project">
                         <CardImg top width="100%" src="/images/nucamp2.png" alt="Nucampsite website image" />
-                        <br />
                         <CardBody className="cardbody-project">
                         <CardTitle tag="h5" className="text-white text-center sora">Nucampsite</CardTitle>
-                        <CardText className="text-white text-center sora">Nucampsite is a website built collaboratively with other students in my cohort. Utilizing React, Redux and CSS. This project was built during the React portion of the Nucamp Fullstack Mobile and Web Development bootcamp. </CardText>
-                        <br />
+                        <CardText className="text-white text-center sora">Nucampsite is a website built collaboratively with other students in my cohort. Utilizing React, Redux and CSS. This project was built during the React portion of the Nucamp Fullstack Mobile and Web Development bootcamp. *Currently connected to local JSON server for an assignment, hence the failed to fetch error.* </CardText>
                         <a href="https://github.com/corylarro/nucampsite2"><i className="fa fa-github text-white fa-lg fa-fw" /></a>{' '}
                         <a href="https://nucamp-campsite.herokuapp.com/home"><i className="fas fa-globe text-white fa-lg fa-fw" /></a>{' '}
                         </CardBody>
