@@ -37,7 +37,8 @@ function Projects(props) {
                         </CardBody>
                     </Card>
                 </Col>
-                <Col md={4}>
+            
+                {/* <Col md={4}>
                     <Card className="card-project">
                         <CardImg top width="100%" src="/images/weather.png" alt="Weather App website image" />
                         <CardBody className="cardbody-project">
@@ -47,7 +48,8 @@ function Projects(props) {
                         <a href="https://lets-check-the-weather.herokuapp.com/"><i className="fas fa-globe text-white fa-lg fa-fw" /></a>{' '}
                         </CardBody>
                     </Card>
-                </Col>
+                </Col> */}
+                
             </Row>
         </Container>
         <br />
